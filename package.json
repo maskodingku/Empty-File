@@ -1,0 +1,21 @@
+{
+  "name": "empty-file",
+  "version": "1.0.0",
+  "description": "Generate an empty file with a specific size.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "empty",
+    "file"
+  ],
+  "author": "Abdi Syahputra Harahap",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "is-ip": "^3.1.0"
+  }
+}
