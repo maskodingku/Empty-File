@@ -117,6 +117,7 @@ app.use(async (req, res, next)=>{
       res.end("err download/?size={number}, query size not found");
     };
   }else{
+	res.writeHead(404);
     res.end(`Format Request : `+infoUrl.origin+`/download?name={name-file}&size={number-size-file-byte}&format={format-size-file}
 
 Example : `+infoUrl.origin+`/download?name=fake-file&size=1048576&format=txt
